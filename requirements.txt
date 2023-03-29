@@ -1,0 +1,5 @@
+pandas~=1.5.3
+selenium~=4.8.2
+dash==2.9.1
+pymongo~=4.3.3
+python-dateutil~=2.8.2
