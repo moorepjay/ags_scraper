@@ -59,9 +59,7 @@ def get_data(lost_ark_server_list, new_world_server_list):
         server_string = server.split('-')
         server_name = server_string[0]
         server_region = server_string[1].replace(' ', '_')
-        # output_path = \
-        #     "C:\\Users\\v-prmoor\\PycharmProjects\\BP\\Amazon\\Bijiaqi\\source\\new_world\\{0}_{1}.csv".format(
-        #         server_name, server_region)
+
         output_path = "{0}{1}_{2}.csv".format(constants.NW_SOURCE_FOLDER, server_name, server_region)
 
         # Get and select input box and enter server name from list

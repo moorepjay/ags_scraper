@@ -22,7 +22,7 @@ else:
     # Format scraped data for dashboard.
     formatter.clean_folders()
 
-    # If there isn't a master file continue as usual.
+    # If there isn't a master file continue.
     if not os.path.isfile(constants.NEW_WORLD_CLEANED_MASTER_FILE):
         # Aggregate cleaned documents into master for each game.
         formatter.update_clean_master_files()
